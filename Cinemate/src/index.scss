@@ -1,0 +1,52 @@
+// // @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+// $bgColor:#131722;
+// $lightBgColor:rgba(30, 41, 82, 0.1);
+// $bgTransparent:rgba(19, 91, 117, 0.6) ;
+// $fontColor:#fff;
+// $borderColor:#a8a8a83d;
+// $borderHeight:1px;
+// $secondFontColor:#949cb0;
+
+// :root {
+//   // font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+//   font-family: 'Netflix Sans' !important;
+//   line-height: 1.5;
+//   font-weight: 400;
+// }
+
+
+// body {
+//   background-color: $bgColor;
+//   color: $fontColor;
+//  }
+
+// /* Netflix Sans */
+// @font-face {
+//   font-family: 'Netflix Sans';
+//   src: url('../../assests/fonts/NetflixSans-Bold.otf') format('woff2'),
+//        url('../../assests/fonts/NetflixSans-Regular.otf') format('woff');
+
+//   font-weight: normal;
+//   font-style: normal;
+// }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+$bgColor:#131722;
+$lightBgColor:rgba(30, 41, 82, 0.2);
+$bgTransparent:rgba(19, 91, 117, 0.6) ;
+$fontColor:#fff;
+$borderColor:#a8a8a83d;
+$borderHeight:1px;
+$secondFontColor:#949cb0;
+
+
+body {
+ background-color: $bgColor;
+ color:$fontColor;
+ font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a,a:hover{
+    color:$fontColor !important
+}
