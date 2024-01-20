@@ -1,4 +1,16 @@
-// @import '../../index.scss';
-// .bgNavbar{
-//   background-color: $lightBgColor;
-// }
+.bgNavbar {
+    // Your existing styles for the navbar
+  
+    .navbar-brand,
+    .nav-link {
+      position: relative;
+      text-decoration: none; // Ensure default text-decoration is removed
+  
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+    
+  }
+

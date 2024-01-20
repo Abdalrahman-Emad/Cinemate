@@ -38,11 +38,11 @@ const MyComponent = () => {
             fontSize: '2rem', letterSpacing: '2px', textTransform: 'uppercase', color: '#e50914'
           }}
             className="navbar-brand">CINEMATE</Link>
-          <div class="d-flex" >
+          {/* <div class="d-flex" >
             <button
               style={{ backgroundColor: '#9D161D' }}
               class="btn btn-outline" ><Link to='/register' style={{ textDecoration: 'none', color: '#fff', lineHeight: '14px', fontWeight: '500' }}>Sign Up</Link></button>
-          </div>
+          </div> */}
         </div>
       </nav>
         </div>
@@ -55,9 +55,10 @@ const MyComponent = () => {
           <h1 style={{ fontSize: '56px', lineHeight: '84px', margin: '0px 0px 16px', fontWeight: 900 }}>
             Unlimited movies, TV shows, and more
           </h1>
-          <p style={{ fontSize: '20px', margin: '0px 0px 32px', fontWeight: 500 }}>
+          {/* <p style={{ fontSize: '20px', margin: '0px 0px 32px', fontWeight: 500 }}>
             Starts at EGP 70. Cancel anytime.
-          </p>
+          </p> */}
+          <Link to='/home'>
           <Button
             variant="outlined"
             size="large"
@@ -70,8 +71,10 @@ const MyComponent = () => {
               fontWeight: '500',
             }}
           >
-            Join Us
+            Explore
           </Button>
+
+          </Link>
         </Grid>
       </Grid>
 
